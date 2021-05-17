@@ -37,15 +37,21 @@ body {
 }
 .navcont {
   display: none;
+  background: rgba(125, 124, 122, 0.9)
 }
 .logo:hover + .navcont {
   display: block;
 }
 
-.nav, .sottotitolo {
+.sottotitolo, .nav {
   font-family: 'Permanent Marker', cursive;
   font-size: 25px;
-  width: 100%;
+  width: 20%;
+  margin: auto;
   text-align: center;
-  width: 100%;
+}
+
+.nav {
+  background-image: radial-gradient(#f7ba3e, #9198e5);
+  border: 1px solid black;
 }
