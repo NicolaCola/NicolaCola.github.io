@@ -4,12 +4,17 @@
 }
 
 body {
-  background: rgb(113,235,52);
+  background-image: url(../img/idromele_le_tre_rune.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
 }
+
 .conteiner {
-  background: white;
+  background: rgba(125, 124, 122, 0.7);
   width: 80%;
   margin: auto;
+  margin-top: 5vh;
   border: 3px solid black;
   padding: 10px;
 }
@@ -17,4 +22,9 @@ body {
 .titolo {
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+  font-size: 150px;
+}
+
+.qualunque {
+  height: 200vh;
 }
