@@ -8,8 +8,10 @@ body {
 }
 .conteiner {
   background: white;
+  background-attachment: fixed;
   width: 80%;
   margin: auto;
   border: 3px solid black;
   padding: 10px;
+  text-align: center;
 }
