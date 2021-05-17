@@ -41,3 +41,11 @@ body {
 .logo:hover + .navcont {
   display: block;
 }
+
+.nav, .sottotitolo {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+}
